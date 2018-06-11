@@ -19,7 +19,7 @@ function init() {
             // An error occurred
         }
         else {
-            document.getElementById("points_meisi").innerText = text;
+            document.getElementById("points_meisi").innerHTML = text + '<i class="tui-icon tui-icon--certificate"></i>';
         }
     });
 
@@ -28,7 +28,7 @@ function init() {
             // An error occurred
         }
         else {
-            document.getElementById("points_rob").innerText = text;
+            document.getElementById("points_rob").innerHTML = text + '<i class="tui-icon tui-icon--certificate"></i>';
         }
     });
 }
