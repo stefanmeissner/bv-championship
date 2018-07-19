@@ -1,0 +1,4 @@
+github:
+  api: api.github.com
+  access_token: 
+  contents_endpoint: "/repos/RobertPazurek/bv-championship/contents/"
