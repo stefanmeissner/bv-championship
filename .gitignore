@@ -1,0 +1,4 @@
+# local dev configs
+build/config_*.yml
+
+*.pyc
